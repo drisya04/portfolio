@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio website</title>
-     <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="main">Drisya</header>
-    <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Skill</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
-        <a href="#">contact</a>
-        </nav>
-        <section class="profile">
-        <div class="pic"><img src="assets/drisya2.jpeg" alt=""></div>
-        <div class="head">
-         <h1>Hello <span>I'm Drisya</span></h1></div>
-         <p class="head"> A first-year BCA student at Nehru College. I’m especially interested in how software works and how digital systems stay secure.<br> I’m currently improving my programming fundamentals in C and Python, exploring web development, and starting to learn the basics of cybersecurity. I love creating simple, useful projects, and I’m actively looking for opportunities and internships that help me grow as a developer.</p>
-        </section>
-        <h2>My Skills</h2>  
-        <div>
-           <li><h3>C Language</h3></li>
-            <ul class="unorder" value="disc">
-                <li>Good understanding of basics,data types and syntax.</li>
-                <li>can write pragrams using loops,functions and arrays.</li>
-                <li>strong logical problem-solving skills.</li>
-            </ul>
-            <li><h3>HTML</h3></li>
-            <ul class="unorder" value="disc">
-                <li>Know how to structure webpages using semantic tag.</li>
-                <li>Can add headings,list,links,images,and forms.</li>
-                <li>Able to create a full portfolio website using HTML.</li>
-            </ul>
-            <li><h3>CSS</h3></li>
-            <ul class="unorder" value="disc">
-                <li> Can style webpages with colors,fonts and spacing.</li>
-                <li>Knows selectors ,classes and IDs.</li>
-                <li>Can make simple and aesthetic responsive designs.</li>
-            </ul><br><br>
-         </div> 
-        <div class="first">
-         <h2>Education</h2>
-              <li><h3>BCA(Bachleor of Computer Application)</h3></li>
-               <ul class="order" value="disc">
-              <li> PK Das Liberal College of Arts and Science</li>
-              <li> Add-On:Cyber Security</li>
-            </ul>
-            </div>
-        <div class="higher">
-            <h3>Higher Secondary</h3>
-            <ul class="order" value="disc">
-                <li>SN Trust Higher Secondary palakkad|2023-2025</li>
-            </ul><br>
-        </div>
-        <div class="exp">
-            <h2>Experience</h2>
-            <li><h3>First Internship</h3></li>
-            <ul class="unorder" value="disc">
-                <li>MaiTexa Institute,Calicut</li>
-            </ul><br>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Drisya</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <div class="container">
+    <header id="home">
+      <img src="assets/drisya2.jpeg" alt="Drisya" class="profile-pic">
+      <h1>Drisya</h1>
+    </header>
 
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+       a first-year BCA student at Nehru College. I’m especially interested in how software works. I’m currently improving my programming fundamentals in C and Python, exploring web development, learning JavaScript, and gaining a basic understanding of cybersecurity. I love creating simple, useful projects, and I’m actively looking for opportunities and internships that help me grow as a developer.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="tag">C Programming</span>
+        <span class="tag">C++</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML</span>
+        <span class="tag">Python</span>
+        <span class="tag">Django</span>
+        <span class="tag"> Ms Excel</span>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Bachelor of Computer Application</h3>
+          <p class="place">PK Das Liberal College of Arts and Science </p>
         </div>
+        <div class="timeline-item">
+          <h3>Higher Secondary</h3>
+          <p class="time">2023 - 2025</p>
+          <p class="place">SN Trust HSS Shornur</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Python Django Internship</h3>
+          <p class="time">April 2025 - May 2025</p>
+          <p class="place">Acadeno Technologies Private Limited</p>
+        </div>
+       
+      </div>
+    </section>
+   <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact info">
+        <a href="drisyaaa04@gmail.com">Email</a><br>
+        <a href="https://www.linkedin.com/in/drisya-p-1156443b8">Linkedin</a><br>
+        <a href="https://github.com/drisya04">GitHub</a><br>
+      </div>
+    </section>
+
+    <footer>
+      © Portfolio
+    </footer>
+  </div>
 </body>
 </html>
